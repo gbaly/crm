@@ -1,0 +1,134 @@
+{
+  "common": {
+    "dashboard": "Dashboard",
+    "users": "Users & Roles",
+    "agents": "Agents",
+    "customers": "Customers",
+    "products": "Products & Inventory",
+    "sales": "Sales & Invoices",
+    "services": "Services",
+    "commissions": "Commissions",
+    "audit": "Audit Log",
+    "settings": "Settings",
+    "logout": "Logout",
+    "profile": "Profile",
+    "notifications": "Notifications",
+    "language": "Language",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode",
+    "search": "Search",
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "back": "Back",
+    "next": "Next",
+    "loading": "Loading...",
+    "noData": "No data available"
+  },
+  "auth": {
+    "login": "Login",
+    "email": "Email",
+    "password": "Password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "loginButton": "Sign In",
+    "welcome": "Welcome Back",
+    "loginSubtitle": "Enter your credentials to access your account"
+  },
+  "dashboard": {
+    "adminTitle": "Admin Dashboard",
+    "agentTitle": "Agent Dashboard",
+    "totalSales": "Total Sales",
+    "bestAgent": "Best Agent",
+    "topCustomer": "Top Customer",
+    "profit": "Profit",
+    "balance": "Balance",
+    "commissionsEarned": "Commissions Earned",
+    "licensesAssigned": "Licenses Assigned",
+    "licensesSold": "Licenses Sold",
+    "recentActivity": "Recent Activity",
+    "recentCustomers": "Recent Customers",
+    "viewAll": "View All"
+  },
+  "users": {
+    "title": "Users & Roles",
+    "addUser": "Add User",
+    "name": "Name",
+    "role": "Role",
+    "status": "Status",
+    "actions": "Actions",
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "agents": {
+    "title": "Agents",
+    "addAgent": "Add Agent",
+    "name": "Name",
+    "balance": "Balance",
+    "licenses": "Licenses",
+    "assignLicense": "Assign License"
+  },
+  "customers": {
+    "title": "Customers",
+    "addCustomer": "Add Customer",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "totalPurchases": "Total Purchases"
+  },
+  "products": {
+    "title": "Products & Inventory",
+    "addProduct": "Add Product",
+    "name": "Name",
+    "price": "Price",
+    "stock": "Stock",
+    "category": "Category"
+  },
+  "sales": {
+    "title": "Sales & Invoices",
+    "createInvoice": "Create Invoice",
+    "invoiceNumber": "Invoice #",
+    "customer": "Customer",
+    "amount": "Amount",
+    "date": "Date",
+    "status": "Status",
+    "paid": "Paid",
+    "pending": "Pending",
+    "overdue": "Overdue"
+  },
+  "services": {
+    "title": "Services",
+    "serviceRequest": "Service Request",
+    "requestNumber": "Request #",
+    "type": "Type",
+    "status": "Status",
+    "inProgress": "In Progress",
+    "completed": "Completed",
+    "cancelled": "Cancelled"
+  },
+  "commissions": {
+    "title": "Commissions",
+    "settings": "Commission Settings",
+    "agentReports": "Agent Reports",
+    "rate": "Rate",
+    "totalEarned": "Total Earned"
+  },
+  "audit": {
+    "title": "Audit Log",
+    "action": "Action",
+    "user": "User",
+    "timestamp": "Timestamp",
+    "details": "Details",
+    "export": "Export"
+  },
+  "settings": {
+    "title": "Settings",
+    "companyInfo": "Company Information",
+    "currency": "Currency",
+    "notifications": "Notification Settings",
+    "general": "General Settings"
+  }
+}

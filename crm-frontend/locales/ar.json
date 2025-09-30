@@ -1,0 +1,134 @@
+{
+  "common": {
+    "dashboard": "لوحة التحكم",
+    "users": "المستخدمون والصلاحيات",
+    "agents": "الوكلاء",
+    "customers": "العملاء",
+    "products": "المنتجات والمخزون",
+    "sales": "المبيعات والفواتير",
+    "services": "الخدمات",
+    "commissions": "العمولات",
+    "audit": "سجل التدقيق",
+    "settings": "الإعدادات",
+    "logout": "تسجيل الخروج",
+    "profile": "الملف الشخصي",
+    "notifications": "الإشعارات",
+    "language": "اللغة",
+    "darkMode": "الوضع الداكن",
+    "lightMode": "الوضع الفاتح",
+    "search": "بحث",
+    "add": "إضافة",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "submit": "إرسال",
+    "back": "رجوع",
+    "next": "التالي",
+    "loading": "جاري التحميل...",
+    "noData": "لا توجد بيانات متاحة"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "rememberMe": "تذكرني",
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "loginButton": "تسجيل الدخول",
+    "welcome": "مرحباً بعودتك",
+    "loginSubtitle": "أدخل بيانات اعتمادك للوصول إلى حسابك"
+  },
+  "dashboard": {
+    "adminTitle": "لوحة تحكم المدير",
+    "agentTitle": "لوحة تحكم الوكيل",
+    "totalSales": "إجمالي المبيعات",
+    "bestAgent": "أفضل وكيل",
+    "topCustomer": "أفضل عميل",
+    "profit": "الأرباح",
+    "balance": "الرصيد",
+    "commissionsEarned": "العمولات المكتسبة",
+    "licensesAssigned": "التراخيص المخصصة",
+    "licensesSold": "التراخيص المباعة",
+    "recentActivity": "النشاط الأخير",
+    "recentCustomers": "العملاء الأخيرون",
+    "viewAll": "عرض الكل"
+  },
+  "users": {
+    "title": "المستخدمون والصلاحيات",
+    "addUser": "إضافة مستخدم",
+    "name": "الاسم",
+    "role": "الدور",
+    "status": "الحالة",
+    "actions": "الإجراءات",
+    "active": "نشط",
+    "inactive": "غير نشط"
+  },
+  "agents": {
+    "title": "الوكلاء",
+    "addAgent": "إضافة وكيل",
+    "name": "الاسم",
+    "balance": "الرصيد",
+    "licenses": "التراخيص",
+    "assignLicense": "تخصيص ترخيص"
+  },
+  "customers": {
+    "title": "العملاء",
+    "addCustomer": "إضافة عميل",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "phone": "الهاتف",
+    "totalPurchases": "إجمالي المشتريات"
+  },
+  "products": {
+    "title": "المنتجات والمخزون",
+    "addProduct": "إضافة منتج",
+    "name": "الاسم",
+    "price": "السعر",
+    "stock": "المخزون",
+    "category": "الفئة"
+  },
+  "sales": {
+    "title": "المبيعات والفواتير",
+    "createInvoice": "إنشاء فاتورة",
+    "invoiceNumber": "رقم الفاتورة",
+    "customer": "العميل",
+    "amount": "المبلغ",
+    "date": "التاريخ",
+    "status": "الحالة",
+    "paid": "مدفوع",
+    "pending": "قيد الانتظار",
+    "overdue": "متأخر"
+  },
+  "services": {
+    "title": "الخدمات",
+    "serviceRequest": "طلب خدمة",
+    "requestNumber": "رقم الطلب",
+    "type": "النوع",
+    "status": "الحالة",
+    "inProgress": "قيد التنفيذ",
+    "completed": "مكتمل",
+    "cancelled": "ملغي"
+  },
+  "commissions": {
+    "title": "العمولات",
+    "settings": "إعدادات العمولة",
+    "agentReports": "تقارير الوكلاء",
+    "rate": "المعدل",
+    "totalEarned": "إجمالي الأرباح"
+  },
+  "audit": {
+    "title": "سجل التدقيق",
+    "action": "الإجراء",
+    "user": "المستخدم",
+    "timestamp": "الوقت",
+    "details": "التفاصيل",
+    "export": "تصدير"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "companyInfo": "معلومات الشركة",
+    "currency": "العملة",
+    "notifications": "إعدادات الإشعارات",
+    "general": "الإعدادات العامة"
+  }
+}
