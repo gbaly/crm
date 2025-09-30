@@ -16,6 +16,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useTranslation } from 'react-i18next';
 import { useSidebar } from '@/hooks/use-sidebar';
+import { useLanguage } from '@/hooks/use-language';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
 
@@ -29,6 +30,7 @@ export function Sidebar() {
   const { t } = useTranslation();
   const pathname = usePathname();
   const { isOpen, close } = useSidebar();
+  const { direction } = useLanguage();
 
   const navItems: NavItem[] = [
     { href: '/dashboard', icon: LayoutDashboard, label: t('common.dashboard') },
@@ -43,6 +45,8 @@ export function Sidebar() {
     { href: '/settings', icon: Settings, label: t('common.settings') },
   ];
 
+  const isRTL = direction === 'rtl';
+
   return (
     <>
       {/* Mobile overlay */}
@@ -56,8 +60,12 @@ export function Sidebar() {
       {/* Sidebar */}
       <aside
         className={cn(
-          'fixed top-16 left-0 z-40 h-[calc(100vh-4rem)] w-64 transform border-r bg-background transition-transform duration-200 ease-in-out lg:translate-x-0',
-          isOpen ? 'translate-x-0' : '-translate-x-full'
+          'fixed top-16 z-40 h-[calc(100vh-4rem)] w-64 transform bg-background transition-transform duration-200 ease-in-out',
+          isRTL ? 'right-0 border-l' : 'left-0 border-r',
+          isRTL 
+            ? (isOpen ? 'translate-x-0' : 'translate-x-full') 
+            : (isOpen ? 'translate-x-0' : '-translate-x-full'),
+          'lg:translate-x-0'
         )}
       >
         <nav className="flex h-full flex-col gap-2 p-4 overflow-y-auto">
