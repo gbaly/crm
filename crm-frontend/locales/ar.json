@@ -26,7 +26,8 @@
     "back": "رجوع",
     "next": "التالي",
     "loading": "جاري التحميل...",
-    "noData": "لا توجد بيانات متاحة"
+    "noData": "لا توجد بيانات متاحة",
+    "actions": "الإجراءات"
   },
   "auth": {
     "login": "تسجيل الدخول",
@@ -36,7 +37,8 @@
     "forgotPassword": "نسيت كلمة المرور؟",
     "loginButton": "تسجيل الدخول",
     "welcome": "مرحباً بعودتك",
-    "loginSubtitle": "أدخل بيانات اعتمادك للوصول إلى حسابك"
+    "loginSubtitle": "أدخل بيانات اعتمادك للوصول إلى حسابك",
+    "loginError": "خطأ في تسجيل الدخول. يرجى التحقق من بياناتك والمحاولة مرة أخرى."
   },
   "dashboard": {
     "adminTitle": "لوحة تحكم المدير",
@@ -56,6 +58,7 @@
   "users": {
     "title": "المستخدمون والصلاحيات",
     "addUser": "إضافة مستخدم",
+    "editUser": "تعديل مستخدم",
     "name": "الاسم",
     "role": "الدور",
     "status": "الحالة",
@@ -74,17 +77,28 @@
   "customers": {
     "title": "العملاء",
     "addCustomer": "إضافة عميل",
+    "editCustomer": "تعديل عميل",
+    "deleteCustomer": "حذف عميل",
     "name": "الاسم",
     "email": "البريد الإلكتروني",
     "phone": "الهاتف",
-    "totalPurchases": "إجمالي المشتريات"
+    "address": "العنوان",
+    "totalPurchases": "إجمالي المشتريات",
+    "addCustomerDesc": "أدخل معلومات العميل الجديد",
+    "editCustomerDesc": "قم بتحديث معلومات العميل",
+    "deleteCustomerDesc": "هل أنت متأكد من حذف هذا العميل؟ لا يمكن التراجع عن هذا الإجراء."
   },
   "products": {
     "title": "المنتجات والمخزون",
     "addProduct": "إضافة منتج",
+    "editProduct": "تعديل منتج",
     "name": "الاسم",
+    "description": "الوصف",
     "price": "السعر",
+    "costPrice": "سعر التكلفة",
+    "salePrice": "سعر البيع",
     "stock": "المخزون",
+    "minStock": "الحد الأدنى للمخزون",
     "category": "الفئة"
   },
   "sales": {

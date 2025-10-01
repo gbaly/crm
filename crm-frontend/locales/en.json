@@ -26,7 +26,8 @@
     "back": "Back",
     "next": "Next",
     "loading": "Loading...",
-    "noData": "No data available"
+    "noData": "No data available",
+    "actions": "Actions"
   },
   "auth": {
     "login": "Login",
@@ -36,7 +37,8 @@
     "forgotPassword": "Forgot password?",
     "loginButton": "Sign In",
     "welcome": "Welcome Back",
-    "loginSubtitle": "Enter your credentials to access your account"
+    "loginSubtitle": "Enter your credentials to access your account",
+    "loginError": "Login failed. Please check your credentials and try again."
   },
   "dashboard": {
     "adminTitle": "Admin Dashboard",
@@ -56,6 +58,7 @@
   "users": {
     "title": "Users & Roles",
     "addUser": "Add User",
+    "editUser": "Edit User",
     "name": "Name",
     "role": "Role",
     "status": "Status",
@@ -74,17 +77,28 @@
   "customers": {
     "title": "Customers",
     "addCustomer": "Add Customer",
+    "editCustomer": "Edit Customer",
+    "deleteCustomer": "Delete Customer",
     "name": "Name",
     "email": "Email",
     "phone": "Phone",
-    "totalPurchases": "Total Purchases"
+    "address": "Address",
+    "totalPurchases": "Total Purchases",
+    "addCustomerDesc": "Enter the new customer information",
+    "editCustomerDesc": "Update the customer information",
+    "deleteCustomerDesc": "Are you sure you want to delete this customer? This action cannot be undone."
   },
   "products": {
     "title": "Products & Inventory",
     "addProduct": "Add Product",
+    "editProduct": "Edit Product",
     "name": "Name",
+    "description": "Description",
     "price": "Price",
+    "costPrice": "Cost Price",
+    "salePrice": "Sale Price",
     "stock": "Stock",
+    "minStock": "Min Stock",
     "category": "Category"
   },
   "sales": {

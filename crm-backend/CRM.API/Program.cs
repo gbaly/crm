@@ -9,6 +9,9 @@ using CRM.Application.Interfaces;
 using CRM.Infrastructure.Repositories;
 using CRM.Application.Services;
 
+// Fix PostgreSQL DateTime issue
+AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Configure Serilog

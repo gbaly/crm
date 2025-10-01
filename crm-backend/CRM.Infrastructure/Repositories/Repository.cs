@@ -2,6 +2,7 @@ using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
 using CRM.Application.Interfaces;
 using CRM.Infrastructure.Data;
+using CRM.Domain.Common;
 
 namespace CRM.Infrastructure.Repositories;
 
@@ -40,6 +41,12 @@ public class Repository<T> : IRepository<T> where T : class
 
     public async Task UpdateAsync(T entity)
     {
+        // Set UpdatedAt if entity is BaseEntity
+        if (entity is BaseEntity baseEntity)
+        {
+            baseEntity.UpdatedAt = DateTime.UtcNow;
+        }
+        
         _dbSet.Update(entity);
         await _context.SaveChangesAsync();
     }

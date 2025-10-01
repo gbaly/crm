@@ -25,22 +25,24 @@ export default function LoginPage() {
     setError('');
 
     try {
-      // Simulate API call
-      await new Promise((resolve) => setTimeout(resolve, 1000));
+      // Import authService dynamically to avoid SSR issues
+      const { authService } = await import('@/lib/services/auth.service');
+      
+      // Call real API
+      const response = await authService.login({ email, password });
 
-      // Mock successful login
+      // Update local auth state
       const user = {
-        id: '1',
-        name: 'Admin User',
-        email: email,
-        role: 'admin' as const,
+        id: response.userId,
+        name: response.name,
+        email: response.email,
+        role: response.role.toLowerCase() as 'admin' | 'agent' | 'accountant',
       };
-      const token = 'mock-jwt-token';
 
-      login(user, token);
+      login(user, response.token);
       router.push('/dashboard');
-    } catch {
-      setError('Invalid credentials. Please try again.');
+    } catch (err: any) {
+      setError(err.message || t('auth.loginError'));
     } finally {
       setIsLoading(false);
     }

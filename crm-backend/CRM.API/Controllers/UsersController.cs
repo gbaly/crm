@@ -91,12 +91,23 @@ public class UsersController : ControllerBase
     {
         try
         {
+            // Parse role: support both number strings ("1", "2") and enum names ("Admin", "Agent")
+            UserRole role;
+            if (int.TryParse(dto.Role, out int roleValue))
+            {
+                role = (UserRole)roleValue;
+            }
+            else
+            {
+                role = Enum.Parse<UserRole>(dto.Role);
+            }
+
             var user = new User
             {
                 Name = dto.Name,
                 Email = dto.Email,
                 PasswordHash = AuthService.HashPassword(dto.Password),
-                Role = Enum.Parse<UserRole>(dto.Role),
+                Role = role,
                 IsActive = true
             };
 
